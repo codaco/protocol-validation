@@ -11,7 +11,7 @@ const migrateStep = (protocol, { version, migration }) => {
 
 const migrateProtocol = (protocol, targetSchemaVersion) => {
   // Get migration steps between versions
-  const migrationPath = getMigrationPath(protocol, targetSchemaVersion);
+  const migrationPath = getMigrationPath(protocol.schemaVersion, targetSchemaVersion);
 
   // Perform migration
   const updatedProtocol = migrationPath.reduce(migrateStep, protocol);
