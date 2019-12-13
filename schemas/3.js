@@ -1114,7 +1114,7 @@ var validate = (function() {
       },
       "component": {
         "type": "string",
-        "enum": ["CheckboxGroup", "Number", "RadioGroup", "Text", "Toggle", "ToggleButtonGroup", "Slider", "VisualAnalogScale", "LikertScale", "DatePicker", "RelativeDatePicker"]
+        "enum": ["CheckboxGroup", "Number", "RadioGroup", "Text", "TextArea", "Toggle", "ToggleButtonGroup", "Slider", "VisualAnalogScale", "LikertScale", "DatePicker", "RelativeDatePicker"]
       },
       "options": {
         "type": "array",
@@ -7383,7 +7383,7 @@ validate.schema = {
         },
         "component": {
           "type": "string",
-          "enum": ["CheckboxGroup", "Number", "RadioGroup", "Text", "Toggle", "ToggleButtonGroup", "Slider", "VisualAnalogScale", "LikertScale", "DatePicker", "RelativeDatePicker"]
+          "enum": ["CheckboxGroup", "Number", "RadioGroup", "Text", "TextArea", "Toggle", "ToggleButtonGroup", "Slider", "VisualAnalogScale", "LikertScale", "DatePicker", "RelativeDatePicker"]
         },
         "options": {
           "type": "array",

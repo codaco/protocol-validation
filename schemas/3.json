@@ -888,6 +888,7 @@
             "Number",
             "RadioGroup",
             "Text",
+            "TextArea",
             "Toggle",
             "ToggleButtonGroup",
             "Slider",
