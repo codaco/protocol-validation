@@ -10,7 +10,7 @@ const allowedVariableName = (value) => {
 const getUniqueAttributes = (items) => {
   const uniqueSet = items.reduce(
     (acc, node) => {
-      Object.keys(node)
+      Object.keys(node['attributes'] || [])
         .forEach(key => acc.add(key));
       return acc;
     },
